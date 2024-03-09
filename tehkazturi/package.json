@@ -1,27 +1,30 @@
 {
   "name": "tehkazturi",
-  "version": "1.1.2",
-  "private": false,
+  "version": "1.0.6",
+  "description": "A Simple Task Management API with Tehkazturi",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "npm",
+    "express",
+    "tehkazturi",
+  ],
+  "author": {
+    "name": "kazturi",
+    "email": "kazturi302@gmail.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kazturi302/tehkazturi.git"
+  },
+  "homepage": "https://github.com/kazturi302/tehkazturi#readme",
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.1"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.1"
+    "express": "^4.18.2",
+    "node": "^21.6.2",
+    "npm": "^10.4.0"
   }
 }
